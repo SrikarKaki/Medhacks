@@ -17,7 +17,7 @@ if 'Medicines' not in st.session_state:
 def run():
     #sidebar
     with st.sidebar:    
-            st.image("swan-removebg-preview.png", use_column_width=True)    
+            st.image("Final_Logo.png", use_column_width=True)    
             app = option_menu(
                 menu_title='SWAN',
                 options=['Homepage'],
